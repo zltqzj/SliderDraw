@@ -16,6 +16,15 @@
 		C46F515417DD7707000C3B2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C46F515317DD7707000C3B2E /* Default.png */; };
 		C46F515617DD7707000C3B2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46F515517DD7707000C3B2E /* Default@2x.png */; };
 		C46F515817DD7707000C3B2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46F515717DD7707000C3B2E /* Default-568h@2x.png */; };
+		C46F515F17DD7836000C3B2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F515E17DD7836000C3B2E /* QuartzCore.framework */; };
+		C46F516217DD79CF000C3B2E /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F516117DD79CF000C3B2E /* MMDrawerController.m */; };
+		C46F516817DD7A21000C3B2E /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F516717DD7A20000C3B2E /* UIViewController+MMDrawerController.m */; };
+		C46F516E17DD7A68000C3B2E /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F516D17DD7A68000C3B2E /* MMDrawerVisualState.m */; };
+		C46F517117DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F517017DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.m */; };
+		C46F517417DD7B27000C3B2E /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F517317DD7B27000C3B2E /* MMDrawerBarButtonItem.m */; };
+		C46F517817DD7D48000C3B2E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F517717DD7D48000C3B2E /* LeftViewController.m */; };
+		C46F517B17DD7D6B000C3B2E /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F517A17DD7D6B000C3B2E /* RightViewController.m */; };
+		C46F517E17DD7D72000C3B2E /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F517D17DD7D72000C3B2E /* CenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,23 @@
 		C46F515317DD7707000C3B2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C46F515517DD7707000C3B2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C46F515717DD7707000C3B2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C46F515E17DD7836000C3B2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C46F516017DD79CF000C3B2E /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		C46F516117DD79CF000C3B2E /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		C46F516617DD7A20000C3B2E /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		C46F516717DD7A20000C3B2E /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		C46F516C17DD7A68000C3B2E /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		C46F516D17DD7A68000C3B2E /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		C46F516F17DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		C46F517017DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		C46F517217DD7B27000C3B2E /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		C46F517317DD7B27000C3B2E /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		C46F517617DD7D48000C3B2E /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		C46F517717DD7D48000C3B2E /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		C46F517917DD7D6A000C3B2E /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		C46F517A17DD7D6B000C3B2E /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		C46F517C17DD7D72000C3B2E /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		C46F517D17DD7D72000C3B2E /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46F515F17DD7836000C3B2E /* QuartzCore.framework in Frameworks */,
 				C46F514217DD7706000C3B2E /* UIKit.framework in Frameworks */,
 				C46F514417DD7706000C3B2E /* Foundation.framework in Frameworks */,
 				C46F514617DD7706000C3B2E /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +78,7 @@
 		C46F513517DD7706000C3B2E = {
 			isa = PBXGroup;
 			children = (
+				C46F515E17DD7836000C3B2E /* QuartzCore.framework */,
 				C46F514717DD7706000C3B2E /* SliderDraw */,
 				C46F514017DD7706000C3B2E /* Frameworks */,
 				C46F513F17DD7706000C3B2E /* Products */,
@@ -78,9 +106,16 @@
 		C46F514717DD7706000C3B2E /* SliderDraw */ = {
 			isa = PBXGroup;
 			children = (
+				C46F517517DD7C13000C3B2E /* MMUtils */,
 				C46F515017DD7706000C3B2E /* AppDelegate.h */,
 				C46F515117DD7706000C3B2E /* AppDelegate.m */,
 				C46F514817DD7706000C3B2E /* Supporting Files */,
+				C46F517617DD7D48000C3B2E /* LeftViewController.h */,
+				C46F517717DD7D48000C3B2E /* LeftViewController.m */,
+				C46F517917DD7D6A000C3B2E /* RightViewController.h */,
+				C46F517A17DD7D6B000C3B2E /* RightViewController.m */,
+				C46F517C17DD7D72000C3B2E /* CenterViewController.h */,
+				C46F517D17DD7D72000C3B2E /* CenterViewController.m */,
 			);
 			path = SliderDraw;
 			sourceTree = "<group>";
@@ -97,6 +132,23 @@
 				C46F515717DD7707000C3B2E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C46F517517DD7C13000C3B2E /* MMUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C46F516017DD79CF000C3B2E /* MMDrawerController.h */,
+				C46F516117DD79CF000C3B2E /* MMDrawerController.m */,
+				C46F516617DD7A20000C3B2E /* UIViewController+MMDrawerController.h */,
+				C46F516717DD7A20000C3B2E /* UIViewController+MMDrawerController.m */,
+				C46F516C17DD7A68000C3B2E /* MMDrawerVisualState.h */,
+				C46F516D17DD7A68000C3B2E /* MMDrawerVisualState.m */,
+				C46F516F17DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.h */,
+				C46F517017DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.m */,
+				C46F517217DD7B27000C3B2E /* MMDrawerBarButtonItem.h */,
+				C46F517317DD7B27000C3B2E /* MMDrawerBarButtonItem.m */,
+			);
+			name = MMUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +218,14 @@
 			files = (
 				C46F514E17DD7706000C3B2E /* main.m in Sources */,
 				C46F515217DD7706000C3B2E /* AppDelegate.m in Sources */,
+				C46F516217DD79CF000C3B2E /* MMDrawerController.m in Sources */,
+				C46F516817DD7A21000C3B2E /* UIViewController+MMDrawerController.m in Sources */,
+				C46F516E17DD7A68000C3B2E /* MMDrawerVisualState.m in Sources */,
+				C46F517117DD7A8C000C3B2E /* MMExampleDrawerVisualStateManager.m in Sources */,
+				C46F517417DD7B27000C3B2E /* MMDrawerBarButtonItem.m in Sources */,
+				C46F517817DD7D48000C3B2E /* LeftViewController.m in Sources */,
+				C46F517B17DD7D6B000C3B2E /* RightViewController.m in Sources */,
+				C46F517E17DD7D72000C3B2E /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +340,7 @@
 				C46F515D17DD7707000C3B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
